@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+requests
+python-multipart
+typing-extensions
+jinja2
+pydantic
+python-jose
+python-dotenv
+asyncio
