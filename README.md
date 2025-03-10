@@ -44,17 +44,17 @@ Jinja2 Templates
 
 Installation
 1. Clone the Repository
-bashCopygit clone https://github.com/yourusername/llm-chat.git
+git clone https://github.com/Nilesh-Pandeyy/multimodel_llm.git
 cd llm-chat
 2. Create Virtual Environment
-bashCopypython -m venv venv
+python -m venv venv
 source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 3. Install Dependencies
-bashCopypip install -r requirements.txt
+pip install -r requirements.txt
 4. Ensure Ollama is Running
 Make sure Ollama is installed and running on your system.
 5. Start the Application
-bashCopyuvicorn main:app --reload
+uvicorn main:app --reload
 Configuration
 Models
 Modify the MODELS list in main.py to include your preferred models:
